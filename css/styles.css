@@ -1,0 +1,124 @@
+body {
+    background-color: #FFFFFF;
+    color: #212121;
+    font-family: Roboto, sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+/* колір заголовків #212121 */
+
+/* колір самого тексту #757575 */
+
+/* білий #FFFFFF */
+
+/* акцент #2196F3 */
+
+/*другорядний колір фону F5F4FA */
+
+/* logo*/
+
+.logo {
+    color: #000000;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+/* Site nav */
+
+.site-nav a {
+    color: #212121;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: #212121;
+}
+
+.site-nav .link.current {
+    color: #2196F3;
+}
+
+/* Hero */
+
+.main-title {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+
+.page {
+    background-color: #2F303A;
+}
+
+.occupation-title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.advantages-title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.advantages-desc {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* Button */
+
+.button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button.primary {
+    color: ;
+    background-color: ;
+}
+
+.button.secondary {
+    color: ;
+    background-color: ;
+}
+
+.our-team {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.workers {
+    background-color: #F5F4FA;
+}
+
+.employee-name {
+    color: #212121;
+}
