@@ -7,31 +7,30 @@ body {
 .list {
     list-style: none;
 }
-/* колір заголовків #212121 */
-
-/* колір самого тексту #757575 */
-
-/* білий #FFFFFF */
-
-/* акцент #2196F3 */
-
-/*другорядний колір фону F5F4FA */
-
-/* logo*/
 
 .logo {
-    color: #000000;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+}
+
+.logo-web {
+    color: #2196F3;
+}
+
+.logo-studio {
+    color: #000000;
+}
+
+.logo-studio-white {
+    color: #FFFFFF;
 }
 
 /* Site nav */
 
 .site-nav a {
     color: #212121;
-    font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -47,6 +46,16 @@ color: #212121;
     color: #2196F3;
 }
 
+.contacts-list a {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+
+
+
 /* Hero */
 
 .main-title {
@@ -57,16 +66,8 @@ color: #212121;
     text-align: center;
 }
 
-.page {
+.page, .info {
     background-color: #2F303A;
-}
-
-.occupation-title {
-    color: #212121;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
 }
 
 .advantages-title {
@@ -84,41 +85,168 @@ color: #212121;
     line-height: 1.71;
 }
 
+.occupation-title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.team-title{
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.name {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.workers {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.position {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.category {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.location {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    text-decoration: none;
+}
+
+.contacts-item {
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    text-decoration: none;
+}
+
 /* Button */
 
 .button {
-    color: #FFFFFF;
-    background-color: #2196F3;
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     cursor: pointer;
     text-decoration: none;
+    border: none;
+    
 }
 
-.button.primary {
-    color: ;
-    background-color: ;
+.button-primary {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+    text-decoration: none;
+    width: 73px;
+    height: 38px;
+    left: 512px;
+    top: 174px;
+    border: none;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
-.button.secondary {
-    color: ;
-    background-color: ;
-}
-
-.our-team {
+.button-secondary.site {
     color: #212121;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-}
-
-.workers {
     background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+    text-decoration: none;
+    width: 125px;
+    height: 38px;
+    left: 593px;
+    top: 174px;
+    border: none;
+    border-radius: 4px;
 }
 
-.employee-name {
+.button-secondary.apps {
     color: #212121;
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+    text-decoration: none;
+    width: 112px;
+    height: 38px;
+    left: 726px;
+    top: 174px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-secondary.design {
+    color: #212121;
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+    text-decoration: none;
+    width: 103px;
+    height: 38px;
+    left: 846px;
+    top: 174px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-secondary.marketing {
+    color: #212121;
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+    text-decoration: none;
+    width: 130px;
+    height: 38px;
+    left: 957px;
+    top: 174px;
+    border: none;
+    border-radius: 4px;
 }
