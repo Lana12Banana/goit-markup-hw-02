@@ -1,6 +1,6 @@
 :root {
     --title-text-color: #212121;
-    --gray-color: #757575;
+    --description-text-color: #757575;
     --white-color: #FFFFFF;
     --accent-color: #2196F3;
     --black-color: #000000;
@@ -66,8 +66,13 @@ body {
 color: var(--accent-color);
 }
 
+.contacts-item:hover,
+.contacts-item:focus {
+    color: var(--accent-color);
+}
+
 .contacts-list a {
-    color: var(--gray-color);
+    color: var(--description-text-color);
     font-weight: 500;
     line-height: 1.14;
     text-decoration: none;
@@ -98,7 +103,7 @@ color: var(--accent-color);
 }
 
 .advantages-desc {
-    color: var(--gray-color);
+    color: var(--description-text-color);
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
@@ -134,7 +139,7 @@ color: var(--accent-color);
 }
 
 .position {
-    color: var(--gray-color);
+    color: var(--description-text-color);
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -148,7 +153,7 @@ color: var(--accent-color);
 }
 
 .category {
-    color: var(--gray-color);
+    color: var(--description-text-color);
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
@@ -175,6 +180,7 @@ color: var(--accent-color);
 .button {
     background-color: var(--accent-color);
     color: var(--white-color);
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -248,4 +254,8 @@ color: var(--accent-color);
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+}
+
+ul .active {
+    color: var(--accent-color);
 }
